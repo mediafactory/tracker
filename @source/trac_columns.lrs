@@ -1,0 +1,30 @@
+LazarusResources.Add('Tcolumnform','FORMDATA',[
+  'TPF0'#11'Tcolumnform'#10'columnform'#4'Left'#3#173#2#6'Height'#3#221#1#3'Top'
+  +#3#195#1#5'Width'#3#4#2#7'Caption'#6#12'TRAC columns'#12'ClientHeight'#3#221
+  +#1#11'ClientWidth'#3#4#2#9'FormStyle'#7#11'fsStayOnTop'#10'LCLVersion'#6#6'0'
+  +'.9.31'#0#9'TNotebook'#9'Notebook1'#4'Left'#2#0#6'Height'#3#221#1#3'Top'#2#0
+  +#5'Width'#3#4#2#9'PageIndex'#2#0#5'Align'#7#8'alClient'#8'TabOrder'#2#0#7'Ta'
+  +'bStop'#9#0#5'TPage'#5'Page1'#11'ClientWidth'#3#4#2#12'ClientHeight'#3#221#1
+  +#0#6'TLabel'#6'Label1'#4'Left'#2#20#6'Height'#2#17#3'Top'#2#16#5'Width'#2'5'
+  +#7'Caption'#6#8'selected'#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3
+  +'('#1#6'Height'#2#17#3'Top'#2#16#5'Width'#2'8'#7'Caption'#6#9'available'#11
+  +'ParentColor'#8#0#0#8'TListBox'#15'selectedColumns'#4'Left'#2#20#6'Height'#3
+  +'`'#1#3'Top'#2'!'#5'Width'#3#188#0#10'ItemHeight'#2#0#8'TabOrder'#2#0#0#0#7
+  +'TButton'#9'RemoveBtn'#4'Left'#3#228#0#6'Height'#2#25#3'Top'#3#146#0#5'Width'
+  +#2'+'#7'Caption'#6#1'>'#7'OnClick'#7#14'RemoveBtnClick'#8'TabOrder'#2#1#0#0#8
+  +'TListBox'#16'availableColumns'#4'Left'#3'('#1#6'Height'#3'`'#1#3'Top'#2'!'#5
+  +'Width'#3#188#0#10'ItemHeight'#2#0#8'TabOrder'#2#2#0#0#7'TButton'#6'AddBtn'#4
+  +'Left'#3#228#0#6'Height'#2#25#3'Top'#3#209#0#5'Width'#2'+'#7'Caption'#6#1'<'
+  +#7'OnClick'#7#11'AddBtnClick'#8'TabOrder'#2#3#0#0#0#5'TPage'#5'Page2'#11'Cli'
+  +'entWidth'#3#248#3#12'ClientHeight'#3#134#3#0#8'TListBox'#11'sortColumns'#4
+  +'Left'#2#20#6'Height'#3'h'#1#3'Top'#2#18#5'Width'#3'H'#1#10'ItemHeight'#2#0#8
+  +'TabOrder'#2#0#0#0#7'TButton'#5'upBtn'#4'Left'#3'|'#1#6'Height'#2#25#3'Top'#2
+  +'j'#5'Width'#2'K'#7'Caption'#6#2'up'#7'OnClick'#7#10'upBtnClick'#8'TabOrder'
+  +#2#1#0#0#7'TButton'#7'downBtn'#4'Left'#3'|'#1#6'Height'#2#25#3'Top'#3#167#0#5
+  +'Width'#2'K'#7'Caption'#6#4'down'#7'OnClick'#7#12'downBtnClick'#8'TabOrder'#2
+  +#2#0#0#0#0#7'TButton'#5'okBtn'#4'Left'#3'('#1#6'Height'#2#25#3'Top'#3#176#1#5
+  +'Width'#2'K'#7'Caption'#6#2'OK'#7'OnClick'#7#10'okBtnClick'#8'TabOrder'#2#1#0
+  +#0#7'TButton'#9'cancelBtn'#4'Left'#3#153#1#6'Height'#2#25#3'Top'#3#176#1#5'W'
+  +'idth'#2'K'#7'Caption'#6#6'cancel'#7'OnClick'#7#14'cancelBtnClick'#8'TabOrde'
+  +'r'#2#2#0#0#0
+]);

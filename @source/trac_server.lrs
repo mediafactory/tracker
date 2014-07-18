@@ -1,0 +1,23 @@
+LazarusResources.Add('Tserverform','FORMDATA',[
+  'TPF0'#11'Tserverform'#10'serverform'#4'Left'#3'O'#2#6'Height'#3#184#0#3'Top'
+  +#3#202#0#5'Width'#3'+'#2#7'Caption'#6#6'server'#12'ClientHeight'#3#184#0#11
+  +'ClientWidth'#3'+'#2#9'FormStyle'#7#11'fsStayOnTop'#8'OnCreate'#7#10'FormCre'
+  +'ate'#9'OnDestroy'#7#11'FormDestroy'#6'OnShow'#7#8'FormShow'#8'Position'#7#14
+  +'poScreenCenter'#10'LCLVersion'#6#6'0.9.31'#0#6'TLabel'#6'Label1'#4'Left'#2#8
+  +#6'Height'#2#17#3'Top'#2'-'#5'Width'#2#29#7'Caption'#6#4'URL:'#11'ParentColo'
+  +'r'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#8#6'Height'#2#17#3'Top'#2'M'#5'Width'
+  +#2' '#7'Caption'#6#5'user:'#11'ParentColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'
+  +#2#8#6'Height'#2#17#3'Top'#2'm'#5'Width'#2'@'#7'Caption'#6#9'Password:'#11'P'
+  +'arentColor'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2#8#6'Height'#2'!'#3'Top'#2#5
+  +#5'Width'#3'w'#1#7'Caption'#6'`fill in the URL, where the XMLRPC plugin is l'
+  +'ocates. Usually:'#13#10'http://myproject.xyz/login/xmlrpc'#11'ParentColor'#8
+  +#0#0#5'TEdit'#3'URL'#4'Left'#2'P'#6'Height'#2#22#3'Top'#2'-'#5'Width'#3#210#1
+  +#8'TabOrder'#2#0#0#0#5'TEdit'#4'User'#4'Left'#2'P'#6'Height'#2#22#3'Top'#2'M'
+  +#5'Width'#3'H'#1#8'TabOrder'#2#1#0#0#5'TEdit'#8'Password'#4'Left'#2'P'#6'Hei'
+  +'ght'#2#22#3'Top'#2'm'#5'Width'#3'H'#1#8'EchoMode'#7#10'emPassword'#12'Passw'
+  +'ordChar'#6#1'*'#8'TabOrder'#2#2#0#0#7'TButton'#5'okBtn'#4'Left'#3'p'#1#6'He'
+  +'ight'#2#25#3'Top'#3#145#0#5'Width'#2'K'#7'Caption'#6#2'OK'#7'OnClick'#7#10
+  +'okBtnClick'#8'TabOrder'#2#3#0#0#7'TButton'#9'cancelBtn'#4'Left'#3#215#1#6'H'
+  +'eight'#2#25#3'Top'#3#145#0#5'Width'#2'K'#7'Caption'#6#6'cancel'#7'OnClick'#7
+  +#14'cancelBtnClick'#8'TabOrder'#2#4#0#0#0
+]);

@@ -1,0 +1,20 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tchangeselectform','FORMDATA',[
+  'TPF0'#17'Tchangeselectform'#16'changeselectform'#4'Left'#3#147#3#6'Height'#3
+  +'H'#1#3'Top'#3#175#0#5'Width'#3#144#1#11'BorderIcons'#11#12'biSystemMenu'#0
+  +#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#16'changeselectform'#12'ClientHe'
+  +'ight'#3'H'#1#11'ClientWidth'#3#144#1#6'OnShow'#7#8'FormShow'#8'Position'#7
+  +#14'poScreenCenter'#10'LCLVersion'#6#6'0.9.31'#0#6'TLabel'#12'commentLabel'#4
+  +'Left'#2#16#6'Height'#2#17#3'Top'#2#8#5'Width'#2'<'#7'Caption'#6#7'comment'
+  +#11'ParentColor'#8#0#0#6'TLabel'#6'Label1'#4'Left'#2#16#6'Height'#2#17#3'Top'
+  +#2'E'#5'Width'#2'<'#7'Caption'#6#7'comment'#11'ParentColor'#8#0#0#5'TMemo'#11
+  +'commentMemo'#4'Left'#2#16#6'Height'#3#178#0#3'Top'#2'X'#5'Width'#3'p'#1#8'T'
+  +'abOrder'#2#0#0#0#7'TButton'#5'okBtn'#4'Left'#3#205#0#6'Height'#2#25#3'Top'#3
+  +#24#1#5'Width'#2'K'#7'Caption'#6#2'OK'#11'ModalResult'#2#1#8'TabOrder'#2#1#0
+  +#0#7'TButton'#9'cancelBtn'#4'Left'#3'5'#1#6'Height'#2#25#3'Top'#3#25#1#5'Wid'
+  +'th'#2'K'#7'Caption'#6#6'cancel'#11'ModalResult'#2#2#8'TabOrder'#2#2#0#0#9'T'
+  +'CheckBox'#12'notifyChkBox'#4'Left'#2#16#6'Height'#2#18#3'Top'#2'('#5'Width'
+  +#2'q'#7'Caption'#6#14'notify changes'#7'Checked'#9#5'State'#7#9'cbChecked'#8
+  +'TabOrder'#2#3#0#0#0
+]);

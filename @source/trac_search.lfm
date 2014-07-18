@@ -1,0 +1,78 @@
+object searchform: Tsearchform
+  Left = 344
+  Height = 543
+  Top = 441
+  Width = 670
+  ActiveControl = searchBtn
+  Caption = 'search'
+  ClientHeight = 543
+  ClientWidth = 670
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  LCLVersion = '0.9.31'
+  object flyLabel: TLabel
+    Left = 496
+    Height = 1
+    Top = 496
+    Width = 1
+    ParentColor = False
+  end
+  object Label1: TLabel
+    Left = 20
+    Height = 17
+    Top = 24
+    Width = 74
+    Caption = 'Limi results'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 20
+    Height = 17
+    Top = 56
+    Width = 13
+    Caption = 'id'
+    ParentColor = False
+  end
+  object searchBtn: TButton
+    Left = 568
+    Height = 25
+    Top = 488
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'search'
+    OnClick = searchBtnClick
+    TabOrder = 0
+  end
+  object id: TMaskEdit
+    Left = 150
+    Height = 22
+    Top = 56
+    Width = 122
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 1
+    SpaceChar = '_'
+  end
+  object max: TMaskEdit
+    Left = 150
+    Height = 22
+    Top = 24
+    Width = 122
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 2
+    Text = '1000'
+    SpaceChar = '_'
+  end
+  object resetBtn: TButton
+    Left = 472
+    Height = 25
+    Top = 488
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'reset'
+    OnClick = resetBtnClick
+    TabOrder = 3
+  end
+end

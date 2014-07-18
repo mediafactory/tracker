@@ -1,0 +1,19 @@
+LazarusResources.Add('Tchangetextform','FORMDATA',[
+  'TPF0'#15'Tchangetextform'#14'changetextform'#4'Left'#3#157#1#6'Height'#3'<'#1
+  +#3'Top'#3#227#0#5'Width'#3#144#1#11'BorderIcons'#11#12'biSystemMenu'#0#11'Bo'
+  +'rderStyle'#7#8'bsDialog'#7'Caption'#6#14'changetextform'#12'ClientHeight'#3
+  +'<'#1#11'ClientWidth'#3#144#1#8'Position'#7#14'poScreenCenter'#10'LCLVersion'
+  +#6#6'0.9.27'#0#6'TLabel'#12'commentLabel'#4'Left'#2#16#6'Height'#2#14#3'Top'
+  +#2#8#5'Width'#2'E'#7'Caption'#6#12'commentLabel'#11'ParentColor'#8#0#0#6'TLa'
+  +'bel'#6'Label2'#4'Left'#2#16#6'Height'#2#14#3'Top'#3#128#0#5'Width'#2','#7'C'
+  +'aption'#6#7'comment'#11'ParentColor'#8#0#0#5'TMemo'#11'commentMemo'#4'Left'
+  +#2#14#6'Height'#2'r'#3'Top'#3#152#0#5'Width'#3'n'#1#8'TabOrder'#2#1#0#0#7'TB'
+  +'utton'#5'okBtn'#4'Left'#3#201#0#6'Height'#2#25#3'Top'#3#24#1#5'Width'#2'K'#7
+  +'Caption'#6#2'OK'#11'ModalResult'#2#1#8'TabOrder'#2#2#0#0#7'TButton'#9'cance'
+  +'lBtn'#4'Left'#3'1'#1#6'Height'#2#25#3'Top'#3#24#1#5'Width'#2'K'#7'Caption'#6
+  +#6'cancel'#11'ModalResult'#2#2#8'TabOrder'#2#3#0#0#5'TEdit'#8'textEdit'#4'Le'
+  +'ft'#2#16#6'Height'#2#23#3'Top'#2':'#5'Width'#3'l'#1#8'TabOrder'#2#0#0#0#9'T'
+  +'CheckBox'#12'notifyChkBox'#4'Left'#2#16#6'Height'#2#17#3'Top'#2'`'#5'Width'
+  +#2'['#7'Caption'#6#14'notify changes'#7'Checked'#9#5'State'#7#9'cbChecked'#8
+  +'TabOrder'#2#4#0#0#0
+]);

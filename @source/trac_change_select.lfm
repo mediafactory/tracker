@@ -1,0 +1,65 @@
+object changeselectform: Tchangeselectform
+  Left = 915
+  Height = 328
+  Top = 175
+  Width = 400
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'changeselectform'
+  ClientHeight = 328
+  ClientWidth = 400
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '0.9.31'
+  object commentLabel: TLabel
+    Left = 16
+    Height = 17
+    Top = 8
+    Width = 60
+    Caption = 'comment'
+    ParentColor = False
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 17
+    Top = 69
+    Width = 60
+    Caption = 'comment'
+    ParentColor = False
+  end
+  object commentMemo: TMemo
+    Left = 16
+    Height = 178
+    Top = 88
+    Width = 368
+    TabOrder = 0
+  end
+  object okBtn: TButton
+    Left = 205
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object cancelBtn: TButton
+    Left = 309
+    Height = 25
+    Top = 281
+    Width = 75
+    Caption = 'cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object notifyChkBox: TCheckBox
+    Left = 16
+    Height = 18
+    Top = 40
+    Width = 113
+    Caption = 'notify changes'
+    Checked = True
+    State = cbChecked
+    TabOrder = 3
+  end
+end
