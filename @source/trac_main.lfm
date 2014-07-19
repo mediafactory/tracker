@@ -1,7 +1,7 @@
 object mainform: Tmainform
-  Left = 422
+  Left = 548
   Height = 755
-  Top = 333
+  Top = 253
   Width = 912
   Caption = 'TRAC'
   ClientHeight = 755

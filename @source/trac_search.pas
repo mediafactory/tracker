@@ -226,7 +226,8 @@ begin
    Option.Left := FElementLeft;
    Option.Width := 80;
    Option.Name := Structure.Keys['name'].getString + '_join';
-   for i := 0 to pred(FJoinOptions.Count) do
+   //for i := 0 to pred(FJoinOptions.Count) do
+   for i := 0 to 1 do
       Option.Items.Add(FJoinOptions.Names[i]);
    Option.Text := '';
    Option.ItemIndex := 0;

@@ -82,6 +82,7 @@ type
 
   private
      FServerVersion: Integer;
+     FServerSoftware: String;
      FApiMajorVersion: Integer;
      FInit: boolean;
      FFieldsAvailable: TStringList;
@@ -347,7 +348,7 @@ begin
    // request comment
    if not Assigned(changeselectform) then
       Application.CreateForm(Tchangeselectform, changeselectform);
-   changeselectform.Caption := 'TRAC - ticket change';
+   changeselectform.Caption := FServerSoftware + ' - ticket change';
    changeselectform.commentLabel.Caption := 'you are about to change ' + IntToStr(Grid.Selection.Bottom - Grid.Selection.top + 1) + ' tickets' + #13#10 +
                                             TMenuItem(Sender).Parent.Caption + ' => ' + TMenuItem(Sender).Caption + #13#10;
    if changeselectform.ShowModal = mrOK then
@@ -392,7 +393,7 @@ begin
    // request comment
    if not Assigned(changetextform) then
       Application.CreateForm(Tchangetextform, changetextform);
-   changetextform.Caption := 'TRAC - ticket change';
+   changetextform.Caption := FServerSoftware + ' - ticket change';
    changetextform.commentLabel.Caption := 'you are about to change ' + IntToStr(Grid.Selection.Bottom - Grid.Selection.top + 1) + ' tickets' + #13#10 +
                                           #13#10 +
                                           TMenuItem(Sender).Caption + ':';
@@ -432,13 +433,20 @@ begin
          Arr := Res.GetArray;
          if Arr.Count = 3 then
          begin
+            FServerSoftware := 'TRAC';
             FServerVersion := Arr.Item[0].GetInteger;
             if FServerVersion = 0 then
                StatusBar.Panels[1].Text := 'TRAC 0.10'
             else if FServerVersion = 1 then
                StatusBar.Panels[1].Text := 'TRAC 0.11'
+            else if FServerVersion < 0 then
+            begin
+               StatusBar.Panels[1].Text := 'YATS';
+               FServerSoftware := 'YATS';
+               Caption := 'YATS';
+            end
             else
-               StatusBar.Panels[1].Text := 'TRAC ??';
+               StatusBar.Panels[1].Text := '??';
 
             StatusBar.Panels[1].Text := StatusBar.Panels[1].Text + ' API ' + IntToStr(Arr.Item[1].GetInteger) + '.' + IntToStr(Arr.Item[2].GetInteger);
          end

@@ -12,7 +12,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, LResources,
+  Forms,
   trac_server,
   trac_main,
   trac_columns,
@@ -21,8 +21,9 @@ uses
 
 {$IFDEF WINDOWS}{$R trac.rc}{$ENDIF}
 
+{$R *.res}
+
 begin
-  {$I trac.lrs}
   Application.Initialize;
   Application.ShowMainForm := false;
   Application.CreateForm(Tmainform, mainform);
@@ -34,4 +35,4 @@ begin
   serverform.Show;
   Application.Run;
 end.
-
+

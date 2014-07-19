@@ -1,8 +1,8 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('Tmainform','FORMDATA',[
-  'TPF0'#9'Tmainform'#8'mainform'#4'Left'#3#166#1#6'Height'#3#243#2#3'Top'#3'M'
-  +#1#5'Width'#3#144#3#7'Caption'#6#4'TRAC'#12'ClientHeight'#3#243#2#11'ClientW'
+  'TPF0'#9'Tmainform'#8'mainform'#4'Left'#3'$'#2#6'Height'#3#243#2#3'Top'#3#253
+  +#0#5'Width'#3#144#3#7'Caption'#6#4'TRAC'#12'ClientHeight'#3#243#2#11'ClientW'
   +'idth'#3#144#3#4'Menu'#7#8'MainMenu'#8'OnCreate'#7#10'FormCreate'#9'OnDestro'
   +'y'#7#11'FormDestroy'#10'LCLVersion'#6#7'1.2.4.0'#0#13'TSemaphorGrid'#4'Grid'
   +#4'Left'#2#0#6'Height'#3#228#2#3'Top'#2#0#5'Width'#3#144#3#5'Align'#7#8'alCl'
