@@ -386,14 +386,21 @@ var
 
 begin
    Obj := self.ControlByName('owner');
-   if Obj is TCombobox then
-      TCombobox(Obj).ItemIndex := TCombobox(Obj).Items.IndexOf(serverform.User.Text)
-   else if Obj is TEdit then
-      TEdit(Obj).Text := serverform.User.Text;
+   try
+     if Assigned(Obj) then
+     begin
+         if Obj is TCombobox then
+            TCombobox(Obj).ItemIndex := TCombobox(Obj).Items.IndexOf(serverform.User.Text)
+         else if Obj is TEdit then
+            TEdit(Obj).Text := serverform.User.Text;
+     end;
+   except
+   end;
 
    max.Text := '500';
 
    Obj := self.ControlByName('status');
+
    if Obj is TCheckgroup then
    begin
 //      Obj := TCheckgroup(Obj).ControlByName('status_new');

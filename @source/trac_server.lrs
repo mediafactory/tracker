@@ -20,4 +20,4 @@ LazarusResources.Add('Tserverform','FORMDATA',[
   +'okBtnClick'#8'TabOrder'#2#3#0#0#7'TButton'#9'cancelBtn'#4'Left'#3#215#1#6'H'
   +'eight'#2#25#3'Top'#3#145#0#5'Width'#2'K'#7'Caption'#6#6'cancel'#7'OnClick'#7
   +#14'cancelBtnClick'#8'TabOrder'#2#4#0#0#0
-]);
+]);

@@ -10,7 +10,7 @@ object searchform: Tsearchform
   OnCreate = FormCreate
   OnDestroy = FormDestroy
   OnShow = FormShow
-  LCLVersion = '0.9.31'
+  LCLVersion = '1.2.4.0'
   object flyLabel: TLabel
     Left = 496
     Height = 1
@@ -20,17 +20,17 @@ object searchform: Tsearchform
   end
   object Label1: TLabel
     Left = 20
-    Height = 17
+    Height = 16
     Top = 24
-    Width = 74
+    Width = 73
     Caption = 'Limi results'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 20
-    Height = 17
+    Height = 16
     Top = 56
-    Width = 13
+    Width = 12
     Caption = 'id'
     ParentColor = False
   end

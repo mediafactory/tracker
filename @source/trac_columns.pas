@@ -194,10 +194,13 @@ begin
    // column order
    sortColumns.Clear;
    sortColumns.Items.AddStrings(selectedColumns.Items);
+
+   Page1.Caption := 'available columns';
+   Page2.Caption := 'sort order';
 end;
 
 initialization
   {$I trac_columns.lrs}
 
 end.
-
+

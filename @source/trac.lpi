@@ -1,26 +1,28 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
-    <Version Value="7"/>
     <General>
       <Flags>
         <LRSInOutputDirectory Value="False"/>
       </Flags>
       <MainUnit Value="0"/>
-      <TargetFileExt Value=".exe"/>
       <Title Value="trac"/>
-      <Icon Value="0"/>
       <UseXPManifest Value="True"/>
-      <ActiveEditorIndexAtStart Value="0"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <CurrentMajorRevNr Value="1"/>
-      <CurrentBuildNr Value="27"/>
-      <ProjectVersion Value="0.0.0.0"/>
+      <MinorVersionNr Value="1"/>
+      <BuildNr Value="27"/>
+      <StringTable ProductVersion="0.0.0.0"/>
     </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -47,23 +49,28 @@
         <Filename Value="trac.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="trac"/>
-        <CursorPos X="32" Y="33"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="1"/>
         <TopLine Value="1"/>
-        <EditorIndex Value="7"/>
+        <CursorPos X="32" Y="33"/>
         <UsageCount Value="219"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="trac_server.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="serverform"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="trac_server"/>
-        <CursorPos X="130" Y="19"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="1"/>
         <TopLine Value="68"/>
-        <EditorIndex Value="5"/>
+        <CursorPos X="130" Y="19"/>
         <UsageCount Value="219"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="trac_main.pas"/>
@@ -72,44 +79,50 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="trac_main"/>
-        <CursorPos X="50" Y="441"/>
-        <TopLine Value="412"/>
         <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="485"/>
+        <CursorPos X="1" Y="473"/>
         <UsageCount Value="219"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\Libs\Open_XMLRPC\xmlrpc.pas"/>
         <UnitName Value="xmlrpc"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="1"/>
-        <UsageCount Value="19"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="18"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\..\Libs\Open_XMLRPC\xmlrpctypes.pas"/>
         <UnitName Value="xmlrpctypes"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="1"/>
-        <UsageCount Value="19"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="18"/>
       </Unit4>
       <Unit5>
         <Filename Value="trac_columns.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="columnform"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="trac_columns"/>
-        <CursorPos X="83" Y="6"/>
-        <TopLine Value="101"/>
-        <EditorIndex Value="8"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="147"/>
+        <CursorPos X="33" Y="199"/>
         <UsageCount Value="219"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="C:\dev\lazarus\lcl\grids.pas"/>
         <UnitName Value="Grids"/>
-        <CursorPos X="24" Y="2094"/>
         <TopLine Value="2080"/>
-        <UsageCount Value="37"/>
+        <CursorPos X="24" Y="2094"/>
+        <UsageCount Value="36"/>
       </Unit6>
       <Unit7>
         <Filename Value="track_search.pas"/>
@@ -117,8 +130,8 @@
         <ComponentName Value="searchform"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="track_search"/>
-        <CursorPos X="10" Y="1"/>
         <TopLine Value="1"/>
+        <CursorPos X="10" Y="1"/>
         <UsageCount Value="200"/>
       </Unit7>
       <Unit8>
@@ -127,251 +140,260 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="trac_search"/>
-        <CursorPos X="18" Y="295"/>
-        <TopLine Value="280"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="371"/>
+        <CursorPos X="4" Y="404"/>
         <UsageCount Value="113"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="C:\dev\lazarus\lcl\dynamicarray.pas"/>
         <UnitName Value="DynamicArray"/>
-        <CursorPos X="1" Y="68"/>
         <TopLine Value="49"/>
-        <UsageCount Value="10"/>
+        <CursorPos X="1" Y="68"/>
+        <UsageCount Value="9"/>
       </Unit9>
       <Unit10>
         <Filename Value="C:\dev\lazarus\lcl\lclstrconsts.pas"/>
         <UnitName Value="LCLStrConsts"/>
-        <CursorPos X="39" Y="195"/>
         <TopLine Value="169"/>
-        <UsageCount Value="10"/>
+        <CursorPos X="39" Y="195"/>
+        <UsageCount Value="9"/>
       </Unit10>
       <Unit11>
         <Filename Value="trac_change_select.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="changeselectform"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="trac_change_select"/>
-        <CursorPos X="1" Y="7"/>
-        <TopLine Value="1"/>
         <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="7"/>
         <UsageCount Value="226"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit11>
       <Unit12>
         <Filename Value="trac_change_text.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="changetextform"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="trac_change_text"/>
-        <CursorPos X="1" Y="8"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="1"/>
         <TopLine Value="1"/>
-        <EditorIndex Value="3"/>
+        <CursorPos X="1" Y="8"/>
         <UsageCount Value="225"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="C:\dev\lazarus\lcl\controls.pp"/>
         <UnitName Value="Controls"/>
-        <CursorPos X="16" Y="258"/>
         <TopLine Value="237"/>
-        <UsageCount Value="83"/>
+        <CursorPos X="16" Y="258"/>
+        <UsageCount Value="82"/>
       </Unit13>
       <Unit14>
         <Filename Value="C:\dev\lazarus\lcl\include\control.inc"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="1"/>
-        <UsageCount Value="83"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="82"/>
       </Unit14>
       <Unit15>
         <Filename Value="..\..\Libs\etc\OpenURL.pas"/>
         <UnitName Value="OpenURL"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="1"/>
-        <UsageCount Value="4"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="3"/>
       </Unit15>
       <Unit16>
         <Filename Value="..\..\Libs\etc\OpenURLUtil.pas"/>
         <UnitName Value="OpenURLUtil"/>
-        <CursorPos X="15" Y="24"/>
         <TopLine Value="4"/>
-        <UsageCount Value="4"/>
+        <CursorPos X="15" Y="24"/>
+        <UsageCount Value="3"/>
       </Unit16>
       <Unit17>
         <Filename Value="C:\dev\lazarus\components\Indy10\Lib\Protocols\IdURI.pas"/>
         <UnitName Value="IdURI"/>
-        <CursorPos X="34" Y="360"/>
         <TopLine Value="346"/>
-        <UsageCount Value="11"/>
+        <CursorPos X="34" Y="360"/>
+        <UsageCount Value="10"/>
       </Unit17>
       <Unit18>
-        <Filename Value="..\..\tracker\@source\open_xmlrpc\xmlrpctypes.pas"/>
-        <UnitName Value="xmlrpctypes"/>
-        <CursorPos X="1" Y="95"/>
-        <TopLine Value="64"/>
-        <UsageCount Value="10"/>
-      </Unit18>
-      <Unit19>
         <Filename Value="open_xmlrpc\xmlrpctypes.pas"/>
         <UnitName Value="xmlrpctypes"/>
-        <CursorPos X="18" Y="662"/>
-        <TopLine Value="660"/>
-        <EditorIndex Value="2"/>
+        <TopLine Value="64"/>
+        <CursorPos X="1" Y="95"/>
+        <UsageCount Value="9"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <UnitName Value="xmlrpc"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="930"/>
+        <CursorPos X="28" Y="953"/>
         <UsageCount Value="14"/>
         <Loaded Value="True"/>
       </Unit19>
       <Unit20>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <UnitName Value="xmlrpc"/>
-        <CursorPos X="28" Y="953"/>
-        <TopLine Value="930"/>
-        <EditorIndex Value="4"/>
-        <UsageCount Value="11"/>
-        <Loaded Value="True"/>
+        <Filename Value="..\..\..\..\..\..\Developer\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="60" Y="74"/>
+        <UsageCount Value="9"/>
       </Unit20>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="trac_server.pas"/>
-        <Caret Line="31" Column="6" TopLine="13"/>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <Caret Line="213" Column="4" TopLine="189"/>
       </Position1>
       <Position2>
-        <Filename Value="trac_server.pas"/>
-        <Caret Line="77" Column="42" TopLine="69"/>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <Caret Line="576" Column="11" TopLine="567"/>
       </Position2>
       <Position3>
-        <Filename Value="trac.lpr"/>
-        <Caret Line="8" Column="1" TopLine="1"/>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <Caret Line="689" Column="23" TopLine="663"/>
       </Position3>
       <Position4>
-        <Filename Value="trac_server.pas"/>
-        <Caret Line="31" Column="44" TopLine="31"/>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <Caret Line="693" Column="1" TopLine="671"/>
       </Position4>
       <Position5>
-        <Filename Value="trac_main.pas"/>
-        <Caret Line="399" Column="19" TopLine="396"/>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
       </Position5>
       <Position6>
-        <Filename Value="trac_main.pas"/>
-        <Caret Line="416" Column="5" TopLine="378"/>
+        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
+        <Caret Line="979" Column="1" TopLine="946"/>
       </Position6>
       <Position7>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="414" Column="6" TopLine="413"/>
+        <Caret Line="605" Column="19" TopLine="602"/>
       </Position7>
       <Position8>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
+        <Caret Line="87" Column="16" TopLine="79"/>
       </Position8>
       <Position9>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="133" Column="14" TopLine="115"/>
+        <Caret Line="431" Column="15" TopLine="384"/>
       </Position9>
       <Position10>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="153" Column="34" TopLine="134"/>
+        <Caret Line="441" Column="50" TopLine="412"/>
       </Position10>
       <Position11>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="191" Column="34" TopLine="153"/>
+        <Caret Line="456" Column="14" TopLine="446"/>
       </Position11>
       <Position12>
-        <Filename Value="trac.lpr"/>
-        <Caret Line="36" Column="1" TopLine="1"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="98" Column="16" TopLine="42"/>
       </Position12>
       <Position13>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="435" Column="13" TopLine="401"/>
+        <Caret Line="110" Column="20" TopLine="69"/>
       </Position13>
       <Position14>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="655" Column="1" TopLine="617"/>
+        <Caret Line="284" Column="19" TopLine="242"/>
       </Position14>
       <Position15>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="20" Column="1" TopLine="20"/>
+        <Caret Line="455" Column="18" TopLine="430"/>
       </Position15>
       <Position16>
-        <Filename Value="trac.lpr"/>
-        <Caret Line="21" Column="38" TopLine="1"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="461" Column="70" TopLine="1"/>
       </Position16>
       <Position17>
         <Filename Value="trac_main.pas"/>
-        <Caret Line="408" Column="22" TopLine="408"/>
+        <Caret Line="496" Column="58" TopLine="451"/>
       </Position17>
       <Position18>
-        <Filename Value="trac_server.pas"/>
-        <Caret Line="100" Column="24" TopLine="78"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="497" Column="18" TopLine="452"/>
       </Position18>
       <Position19>
-        <Filename Value="trac_server.pas"/>
-        <Caret Line="14" Column="18" TopLine="1"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="498" Column="18" TopLine="453"/>
       </Position19>
       <Position20>
-        <Filename Value="open_xmlrpc\xmlrpctypes.pas"/>
-        <Caret Line="1398" Column="5" TopLine="1351"/>
+        <Filename Value="trac_columns.pas"/>
+        <Caret Line="178" Column="1" TopLine="151"/>
       </Position20>
       <Position21>
-        <Filename Value="open_xmlrpc\xmlrpctypes.pas"/>
-        <Caret Line="92" Column="1" TopLine="53"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="224" Column="59" TopLine="199"/>
       </Position21>
       <Position22>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <Caret Line="213" Column="4" TopLine="189"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="455" Column="18" TopLine="410"/>
       </Position22>
       <Position23>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <Caret Line="576" Column="11" TopLine="567"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="496" Column="18" TopLine="451"/>
       </Position23>
       <Position24>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <Caret Line="689" Column="23" TopLine="663"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="497" Column="18" TopLine="452"/>
       </Position24>
       <Position25>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <Caret Line="693" Column="1" TopLine="671"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="498" Column="18" TopLine="453"/>
       </Position25>
       <Position26>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <Caret Line="1" Column="1" TopLine="1"/>
+        <Filename Value="trac_main.pas"/>
+        <Caret Line="224" Column="40" TopLine="199"/>
       </Position26>
       <Position27>
-        <Filename Value="open_xmlrpc\xmlrpc.pas"/>
-        <Caret Line="979" Column="1" TopLine="946"/>
+        <Filename Value="trac_search.pas"/>
+        <Caret Line="393" Column="9" TopLine="364"/>
       </Position27>
       <Position28>
-        <Filename Value="trac_main.pas"/>
-        <Caret Line="605" Column="19" TopLine="602"/>
+        <Filename Value="trac_search.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
       </Position28>
       <Position29>
-        <Filename Value="trac_main.pas"/>
-        <Caret Line="87" Column="16" TopLine="79"/>
+        <Filename Value="trac_search.pas"/>
+        <Caret Line="392" Column="1" TopLine="371"/>
       </Position29>
       <Position30>
-        <Filename Value="trac_main.pas"/>
-        <Caret Line="431" Column="15" TopLine="384"/>
+        <Filename Value="trac_search.pas"/>
+        <Caret Line="391" Column="50" TopLine="365"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="8"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
       <Filename Value="..\bin\trac"/>
     </Target>
     <SearchPaths>
-      <OtherUnitFiles Value="open_xmlrpc\;open_etc\;lnet\lib\"/>
+      <OtherUnitFiles Value="open_xmlrpc;open_etc;lnet\lib"/>
       <UnitOutputDirectory Value="..\@compiled"/>
-      <LCLWidgetType Value="carbon"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
         <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="False"/>
       </SyntaxOptions>
     </Parsing>
     <Linking>
       <Debugging>
+        <GenerateDebugInfo Value="False"/>
         <UseLineInfoUnit Value="False"/>
         <StripSymbols Value="True"/>
       </Debugging>
@@ -389,14 +411,23 @@
   <Debugging>
     <BreakPoints Count="3">
       <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
         <Source Value="C:\dev\lazarus\examples\gridexamples\grid_semaphor\semaphorgrids.pas"/>
         <Line Value="543"/>
       </Item1>
       <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
         <Source Value="open_xmlrpc\xmlrpc.pas"/>
         <Line Value="666"/>
       </Item2>
       <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
         <Source Value="open_xmlrpc\xmlrpc.pas"/>
         <Line Value="947"/>
       </Item3>
@@ -415,4 +446,5 @@
       </Item2>
     </Exceptions>
   </Debugging>
+  <EditorMacros Count="0"/>
 </CONFIG>

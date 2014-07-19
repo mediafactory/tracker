@@ -9,10 +9,10 @@ object mainform: Tmainform
   Menu = MainMenu
   OnCreate = FormCreate
   OnDestroy = FormDestroy
-  LCLVersion = '0.9.28.2'
+  LCLVersion = '1.2.4.0'
   object Grid: TSemaphorGrid
     Left = 0
-    Height = 735
+    Height = 740
     Top = 0
     Width = 912
     Align = alClient
@@ -20,10 +20,12 @@ object mainform: Tmainform
     ColCount = 2
     Columns = <    
       item
+        Title.Caption = 'Title'
         Title.ImageIndex = 1
         Title.ImageLayout = blGlyphLeft
       end    
       item
+        Title.Caption = 'Title'
       end>
     FixedCols = 0
     Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goTabs, goRowSelect, goThumbTracking, goDblClickAutoSize, goSmoothScroll, goHeaderPushedLook]
@@ -48,8 +50,8 @@ object mainform: Tmainform
   end
   object StatusBar: TStatusBar
     Left = 0
-    Height = 20
-    Top = 735
+    Height = 15
+    Top = 740
     Width = 912
     Panels = <    
       item
